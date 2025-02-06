@@ -1,0 +1,17 @@
+name: 'Event Management'
+type: theme
+description: 'A custom theme for the event management website.'
+core_version_requirement: ^8 || ^9
+base theme: classy
+
+libraries:
+  - event_management/global-styling
+
+regions:
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  content: 'Content'
+  footer: 'Footer'

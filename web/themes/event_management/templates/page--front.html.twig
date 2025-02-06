@@ -1,0 +1,20 @@
+<div class="hero">
+  <h1>Welcome to Parth Video</h1>
+  <p>We provide services like photography, videography, and event planning.</p>
+</div>
+
+<section class="services">
+  <h2>Our Services</h2>
+  <div class="service-list">
+    {% for service in view.services %}
+      <div class="service">
+        <h3>{{ service.name }}</h3>
+        <p>{{ service.description }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Parth Video</p>
+</footer>
